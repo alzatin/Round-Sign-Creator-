@@ -1,14 +1,95 @@
 {
     "atomType": "Molecule",
-    "name": "Round Sign Creator ",
+    "name": "Round-Sign-Creator-",
     "x": 0,
     "y": 0,
     "uniqueID": 1730758882649,
-    "ioValues": [],
+    "ioValues": [
+        {
+            "name": "Sign Diameter",
+            "ioValue": 10
+        },
+        {
+            "name": "Sign ",
+            "ioValue": 8
+        }
+    ],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
     "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
+    "allAtoms": [
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": 1730758891455,
+            "ioValues": [],
+            "description": "Connect geometry here to make it available in the next level up. "
+        },
+        {
+            "atomType": "Input",
+            "name": "Sign Diameter",
+            "x": 0.04,
+            "y": 0.5481049562682215,
+            "uniqueID": 1730758895020,
+            "ioValues": [],
+            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.46529562982005135,
+            "y": 0.3177842565597668,
+            "uniqueID": 1730759051883,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10
+                }
+            ],
+            "description": "Creates a new circle."
+        },
+        {
+            "atomType": "Input",
+            "name": "Sign ",
+            "x": 0.04,
+            "y": 0.6705539358600583,
+            "uniqueID": 1730759056700,
+            "ioValues": [],
+            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
+        },
+        {
+            "atomType": "Text",
+            "name": "Text",
+            "x": 0.3907455012853471,
+            "y": 0.6122448979591837,
+            "uniqueID": 1730759120958,
+            "ioValues": [
+                {
+                    "name": "Text",
+                    "ioValue": 8
+                }
+            ],
+            "description": "Creates a new text sketch.",
+            "fontFamily": "ROBOTO"
+        }
+    ],
+    "allConnectors": [
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "diameter",
+            "ap2Primary": false,
+            "ap1ID": 1730758895020,
+            "ap2ID": 1730759051883
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Text",
+            "ap2Primary": false,
+            "ap1ID": 1730759056700,
+            "ap2ID": 1730759120958
+        }
+    ],
     "unitsKey": "Inches",
     "fileTypeVersion": 1,
     "compiledBom": {},
