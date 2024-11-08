@@ -7,15 +7,19 @@
     "ioValues": [
         {
             "name": "Sign Diameter",
-            "ioValue": 100
+            "ioValue": 36
         },
         {
             "name": "Sign ",
-            "ioValue": "testing"
+            "ioValue": "Sign"
         },
         {
             "name": "font size",
-            "ioValue": 20
+            "ioValue": 10
+        },
+        {
+            "name": "wood thickness",
+            "ioValue": 1
         }
     ],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -39,7 +43,7 @@
             "atomType": "Input",
             "name": "Sign Diameter",
             "x": 0.04,
-            "y": 0.3527696793002915,
+            "y": 0.2478134110787172,
             "uniqueID": 1730758895020,
             "ioValues": [],
             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
@@ -47,13 +51,13 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.5115681233933163,
-            "y": 0.2594752186588921,
+            "x": 0.38817480719794345,
+            "y": 0.26822157434402333,
             "uniqueID": 1730759051883,
             "ioValues": [
                 {
                     "name": "diameter",
-                    "ioValue": 100
+                    "ioValue": 36
                 }
             ],
             "description": "Creates a new circle."
@@ -70,27 +74,27 @@
         {
             "atomType": "Text",
             "name": "Text",
-            "x": 0.2356469580119966,
-            "y": 0.7405247813411079,
+            "x": 0.23479005998286204,
+            "y": 0.6938775510204082,
             "uniqueID": 1730759120958,
             "ioValues": [
                 {
                     "name": "Font Size",
-                    "ioValue": 20
+                    "ioValue": 10
                 },
                 {
                     "name": "Text",
-                    "ioValue": "testing"
+                    "ioValue": "Sign"
                 }
             ],
             "description": "Creates a new text sketch.",
-            "fontFamily": "ROBOTO"
+            "fontFamily": "MONSERRAT"
         },
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.5895458440445587,
-            "y": 0.44023323615160354,
+            "x": 0.583547557840617,
+            "y": 0.47230320699708456,
             "uniqueID": 1731086081276,
             "ioValues": [
                 {
@@ -99,7 +103,7 @@
                 },
                 {
                     "name": "height",
-                    "ioValue": 10
+                    "ioValue": 1
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -108,7 +112,7 @@
             "atomType": "Difference",
             "name": "Difference",
             "x": 0.7335047129391603,
-            "y": 0.5451895043731778,
+            "y": 0.5393586005830904,
             "uniqueID": 1731086090817,
             "ioValues": [
                 {
@@ -135,7 +139,7 @@
                 },
                 {
                     "name": "height",
-                    "ioValue": 10
+                    "ioValue": 1
                 }
             ],
             "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -153,7 +157,7 @@
             "atomType": "Move",
             "name": "Move",
             "x": 0.41645244215938304,
-            "y": 0.7376093294460642,
+            "y": 0.7288629737609329,
             "uniqueID": 1731086268651,
             "ioValues": [
                 {
@@ -162,7 +166,7 @@
                 },
                 {
                     "name": "xDist",
-                    "ioValue": -25
+                    "ioValue": -12
                 },
                 {
                     "name": "yDist",
@@ -177,18 +181,27 @@
         },
         {
             "atomType": "Equation",
-            "name": "-x/4",
-            "x": 0.31362467866323906,
-            "y": 0.5422740524781341,
+            "name": "-x/3",
+            "x": 0.2930591259640103,
+            "y": 0.5335276967930029,
             "uniqueID": 1731086278443,
             "ioValues": [
                 {
                     "name": "x",
-                    "ioValue": 100
+                    "ioValue": 36
                 }
             ],
             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
-            "currentEquation": "-x/4"
+            "currentEquation": "-x/3"
+        },
+        {
+            "atomType": "Input",
+            "name": "wood thickness",
+            "x": 0.04,
+            "y": 0.4081632653061224,
+            "uniqueID": 1731087041997,
+            "ioValues": [],
+            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
         }
     ],
     "allConnectors": [
@@ -268,6 +281,20 @@
             "ap2Primary": false,
             "ap1ID": 1731086278443,
             "ap2ID": 1731086268651
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "height",
+            "ap2Primary": false,
+            "ap1ID": 1731087041997,
+            "ap2ID": 1731086081276
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "height",
+            "ap2Primary": false,
+            "ap1ID": 1731087041997,
+            "ap2ID": 1731086125130
         }
     ],
     "unitsKey": "Inches",
