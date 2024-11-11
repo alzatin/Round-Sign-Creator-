@@ -11,11 +11,11 @@
         },
         {
             "name": "Sign ",
-            "ioValue": "Sign"
+            "ioValue": "Mistery"
         },
         {
             "name": "font size",
-            "ioValue": 10
+            "ioValue": 8
         },
         {
             "name": "wood thickness",
@@ -80,15 +80,15 @@
             "ioValues": [
                 {
                     "name": "Font Size",
-                    "ioValue": 10
+                    "ioValue": 8
                 },
                 {
                     "name": "Text",
-                    "ioValue": "Sign"
+                    "ioValue": "Mistery"
                 }
             ],
             "description": "Creates a new text sketch.",
-            "fontFamily": "MONSERRAT"
+            "fontFamily": "ROBOTO"
         },
         {
             "atomType": "Extrude",
