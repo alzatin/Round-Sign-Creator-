@@ -11,7 +11,7 @@
         },
         {
             "name": "Sign ",
-            "ioValue": "Mistery"
+            "ioValue": 10
         },
         {
             "name": "font size",
@@ -46,7 +46,8 @@
             "y": 0.2478134110787172,
             "uniqueID": 1730758895020,
             "ioValues": [],
-            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
+            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+            "type": "number"
         },
         {
             "atomType": "Circle",
@@ -66,10 +67,11 @@
             "atomType": "Input",
             "name": "Sign ",
             "x": 0.04,
-            "y": 0.6705539358600583,
+            "y": 0.6618075801749271,
             "uniqueID": 1730759056700,
             "ioValues": [],
-            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
+            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+            "type": "string"
         },
         {
             "atomType": "Text",
@@ -84,7 +86,7 @@
                 },
                 {
                     "name": "Text",
-                    "ioValue": "Mistery"
+                    "ioValue": "NaNtery"
                 }
             ],
             "description": "Creates a new text sketch.",
@@ -151,7 +153,8 @@
             "y": 0.5568513119533528,
             "uniqueID": 1731086208252,
             "ioValues": [],
-            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
+            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+            "type": "number"
         },
         {
             "atomType": "Move",
@@ -201,7 +204,8 @@
             "y": 0.4081632653061224,
             "uniqueID": 1731087041997,
             "ioValues": [],
-            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable"
+            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+            "type": "number"
         }
     ],
     "allConnectors": [
