@@ -7,7 +7,7 @@
     "ioValues": [
         {
             "name": "Sign Diameter",
-            "ioValue": 36
+            "ioValue": 10
         },
         {
             "name": "Sign ",
@@ -15,11 +15,11 @@
         },
         {
             "name": "font size",
-            "ioValue": 8
+            "ioValue": 10
         },
         {
             "name": "wood thickness",
-            "ioValue": 1
+            "ioValue": 10
         }
     ],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -86,7 +86,7 @@
                 },
                 {
                     "name": "Text",
-                    "ioValue": "NaNtery"
+                    "ioValue": "mesh"
                 }
             ],
             "description": "Creates a new text sketch.",
